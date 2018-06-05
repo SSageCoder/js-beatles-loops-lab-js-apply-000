@@ -5,12 +5,11 @@ const facts = [
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
 ];
-function johnLennonFacts() facts
 
-function theBeatlesPlay(musicians, instruments) {
-    var allPlayers = [];
-    for (var i=0; i < players.length; i++) {
-        allPlayers.push(players[i] + " plays " + instruments[i]);
+function theBeatlesPlay(muscians, instruments) {
+    var allMuscians = [];
+    for (var i=0; i < muscians.length; i++) {
+        allMuscians.push(muscians[i] + " plays " + instruments[i]);
     }
-    return allPlayers;
+    return allMuscians;
 }
